@@ -9,8 +9,6 @@ import {
   styles as mapStyles,
   zoom as mapZoom,
 } from "../constants/map";
-import "leaflet/dist/leaflet.css";
-import "leaflet-draw/dist/leaflet.draw.css";
 import "leaflet-draw";
 
 const MapComponent: React.FC<MapComponentPropType> = ({
